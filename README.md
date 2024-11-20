@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 Video to 3D Point Cloud Converter
 
-## Getting Started
+Transform your videos into stunning 3D point cloud visualizations! ✨
 
-First, run the development server:
+## ✨ Features
+
+🎯 Real-time video to point cloud conversion  
+🔄 Interactive 3D visualization  
+📺 Source video minimap display  
+🎨 Smart color and brightness filtering  
+📊 Live progress tracking
+
+## ✨ Demo
+
+![Demo Video](docs/images/demo.gif)
+
+Transform your videos into stunning 3D point cloud visualizations!
+
+## 🚀 Requirements
+
+- 📦 Node.js 18.0.0 or higher
+- 🌐 Modern web browser with WebGL support
+
+## 💻 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/harukaapps/video-to-3d.git
+
+# Navigate to project directory
+cd video-to-3d
+
+# Install dependencies
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎮 Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. 🚀 Start the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. 🌐 Open your browser and navigate to `http://localhost:3000`
 
-## Learn More
+3. 📤 Upload a video file:
+   - Click "Upload Video" button
+   - Select a video file from your computer
+   - Processing will start automatically ⚡
 
-To learn more about Next.js, take a look at the following resources:
+4. 🖱️ Interact with the 3D model:
+   - Left click + drag → Rotate
+   - Right click + drag → Pan
+   - Scroll → Zoom in/out
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Best Practices for Video Input
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For optimal results, follow these guidelines:
 
-## Deploy on Vercel
+### 🎬 Background
+- ⚫ Use a black background (recommended)
+- ❌ Avoid white or reflective surfaces
+- 💡 Ensure uniform lighting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 📦 Subject
+- 🎯 Choose objects with clear texture
+- ✨ Avoid highly reflective materials
+- 🎨 Ensure good contrast with background
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🎥 Recording Tips
+- 🔄 Rotate subject slowly and steadily
+- 💡 Maintain consistent lighting
+- 📷 Keep camera position stable
+
+## 🛠️ Technical Details
+
+- ⚛️ Framework: Next.js
+- 📝 Language: TypeScript
+- 🎮 3D Rendering: Three.js
+- 🎨 Styling: Tailwind CSS
+
+## 📚 Documentation
+
+- 📋 [Technical Specification](docs/TECHNICAL_SPEC.md) - Detailed technical documentation
+- 🎮 [User Guide](docs/USER_GUIDE.md) - Coming soon
+- 🔧 [Development Guide](docs/DEV_GUIDE.md) - Coming soon
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+- 🐛 Report bugs
+- 💡 Suggest features
+- 🔧 Submit pull requests
+
+## ⚠️ Maintenance Status
+
+This project is currently in **archived status**. This means:
+- No active development or maintenance
+- No issue tracking or pull request acceptance
+- The code is provided as-is for educational and reference purposes
+- Feel free to fork and modify for your own use
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) for details
+
+## 👨‍💻 Author
+
+haruka_apps
+
+## 🙏 Acknowledgments
+
+- 🎮 Three.js team for the excellent 3D library
+- ⚛️ Next.js team for the React framework
+- 👥 All contributors and users of this project
+
+## 💫 Example Results
+
+For best results:
+1. 🎥 Record your object with good lighting
+2. 🔄 Rotate slowly and steadily
+3. ⚫ Use a dark background
+4. ✨ Watch the magic happen!
