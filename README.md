@@ -25,10 +25,10 @@ Transform your videos into stunning 3D point cloud visualizations!
 
 ```bash
 # Clone the repository
-git clone https://github.com/harukaapps/video-to-3d.git
+git clone https://github.com/harukaapps/3D_Point_Cloud_Movie.git
 
 # Navigate to project directory
-cd video-to-3d
+cd 3D_Point_Cloud_Movie
 
 # Install dependencies
 npm install
